@@ -2,9 +2,17 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"say_hello": "00_core.ipynb"}
+index = {"say_hello": "00_core.ipynb",
+         "Net": "01_embedding.ipynb",
+         "emb": "01_embedding.ipynb",
+         "input": "01_embedding.ipynb",
+         "model": "01_embedding.ipynb",
+         "optim": "01_embedding.ipynb",
+         "w": "01_embedding.ipynb",
+         "emp": "01_embedding.ipynb"}
 
-modules = ["core.py"]
+modules = ["core.py",
+           "embedding.py"]
 
 doc_url = "https://gauravadlakha1509.github.io/demo_one/"
 
